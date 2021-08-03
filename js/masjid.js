@@ -21,7 +21,7 @@ var masjidgeojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.082325500000024, -8.360335099999929, 0.0],
+        coordinates: [116.082325500000024, -8.360335099999929],
       },
     },
     {
@@ -42,7 +42,7 @@ var masjidgeojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.056428700000083, -8.352655, 0.0],
+        coordinates: [116.056428700000083, -8.352655],
       },
     },
     {
@@ -63,7 +63,7 @@ var masjidgeojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.043699900000092, -8.350112099999933, 0.0],
+        coordinates: [116.043699900000092, -8.350112099999933],
       },
     },
     {
@@ -80,7 +80,7 @@ var masjidgeojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.102564, -8.405032, 0.0] },
+      geometry: { type: "Point", coordinates: [116.102564, -8.405032] },
     },
     {
       type: "Feature",
@@ -100,7 +100,7 @@ var masjidgeojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.065338700000098, -8.406279299999937, 0.0],
+        coordinates: [116.065338700000098, -8.406279299999937],
       },
     },
     {
@@ -121,7 +121,7 @@ var masjidgeojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.040483400000085, -8.45259249999998, 0.0],
+        coordinates: [116.040483400000085, -8.45259249999998],
       },
     },
     {
@@ -142,7 +142,7 @@ var masjidgeojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.050263300000097, -8.43155889999997, 0.0],
+        coordinates: [116.050263300000097, -8.43155889999997],
       },
     },
   ],

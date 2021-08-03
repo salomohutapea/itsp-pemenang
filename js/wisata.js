@@ -21,7 +21,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.082325500000024, -8.360335099999929, 0.0],
+        coordinates: [116.082325500000024, -8.360335099999929],
       },
     },
     {
@@ -42,7 +42,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.056428700000083, -8.352655, 0.0],
+        coordinates: [116.056428700000083, -8.352655],
       },
     },
     {
@@ -63,7 +63,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.043699900000092, -8.350112099999933, 0.0],
+        coordinates: [116.043699900000092, -8.350112099999933],
       },
     },
     {
@@ -84,7 +84,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.04363740000008, -8.352989399999956, 0.0],
+        coordinates: [116.04363740000008, -8.352989399999956],
       },
     },
     {
@@ -105,7 +105,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.061882200000014, -8.353089099999977, 0.0],
+        coordinates: [116.061882200000014, -8.353089099999977],
       },
     },
     {
@@ -122,7 +122,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.083119, -8.36369, 0.0] },
+      geometry: { type: "Point", coordinates: [116.083119, -8.36369] },
     },
     {
       type: "Feature",
@@ -138,7 +138,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.085653, -8.349688, 0.0] },
+      geometry: { type: "Point", coordinates: [116.085653, -8.349688] },
     },
     {
       type: "Feature",
@@ -158,7 +158,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.061417300000016, -8.340786699999967, 0.0],
+        coordinates: [116.061417300000016, -8.340786699999967],
       },
     },
     {
@@ -178,7 +178,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.050480300000117, -8.348393899999962, 0.0],
+        coordinates: [116.050480300000117, -8.348393899999962],
       },
     },
     {
@@ -195,7 +195,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.050762, -8.348566, 0.0] },
+      geometry: { type: "Point", coordinates: [116.050762, -8.348566] },
     },
     {
       type: "Feature",
@@ -213,7 +213,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.02868500000011, -8.356699, 0.0],
+        coordinates: [116.02868500000011, -8.356699],
       },
     },
     {
@@ -230,7 +230,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.023436, -8.345804, 0.0] },
+      geometry: { type: "Point", coordinates: [116.023436, -8.345804] },
     },
     {
       type: "Feature",
@@ -250,7 +250,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.053632300000118, -8.343038699999966, 0.0],
+        coordinates: [116.053632300000118, -8.343038699999966],
       },
     },
     {
@@ -271,7 +271,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.055784, -8.353459899999962, 0.0],
+        coordinates: [116.055784, -8.353459899999962],
       },
     },
     {
@@ -292,7 +292,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.041169, -8.358598699999959, 0.0],
+        coordinates: [116.041169, -8.358598699999959],
       },
     },
     {
@@ -313,7 +313,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.03677360000006, -8.360426899999936, 0.0],
+        coordinates: [116.03677360000006, -8.360426899999936],
       },
     },
     {
@@ -334,7 +334,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.028277900000035, -8.347446499999933, 0.0],
+        coordinates: [116.028277900000035, -8.347446499999933],
       },
     },
     {
@@ -355,7 +355,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.034102700000062, -8.341077299999938, 0.0],
+        coordinates: [116.034102700000062, -8.341077299999938],
       },
     },
     {
@@ -376,7 +376,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.086799800000108, -8.352627299999938, 0.0],
+        coordinates: [116.086799800000108, -8.352627299999938],
       },
     },
     {
@@ -397,7 +397,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.028078500000106, -8.346250599999962, 0.0],
+        coordinates: [116.028078500000106, -8.346250599999962],
       },
     },
     {
@@ -418,7 +418,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.040357, -8.360121399999969, 0.0],
+        coordinates: [116.040357, -8.360121399999969],
       },
     },
     {
@@ -439,7 +439,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.060825600000044, -8.358035599999937, 0.0],
+        coordinates: [116.060825600000044, -8.358035599999937],
       },
     },
     {
@@ -460,7 +460,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.055055100000118, -8.350421, 0.0],
+        coordinates: [116.055055100000118, -8.350421],
       },
     },
     {
@@ -481,7 +481,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.08453750000001, -8.363979899999947, 0.0],
+        coordinates: [116.08453750000001, -8.363979899999947],
       },
     },
     {
@@ -502,7 +502,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.087200100000018, -8.360472699999946, 0.0],
+        coordinates: [116.087200100000018, -8.360472699999946],
       },
     },
     {
@@ -523,7 +523,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.0863491, -8.35339579999993, 0.0],
+        coordinates: [116.0863491, -8.35339579999993],
       },
     },
     {
@@ -540,7 +540,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.10526, -8.409224, 0.0] },
+      geometry: { type: "Point", coordinates: [116.10526, -8.409224] },
     },
     {
       type: "Feature",
@@ -556,7 +556,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.103816, -8.406749, 0.0] },
+      geometry: { type: "Point", coordinates: [116.103816, -8.406749] },
     },
     {
       type: "Feature",
@@ -576,7 +576,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.097190300000079, -8.410987, 0.0],
+        coordinates: [116.097190300000079, -8.410987],
       },
     },
     {
@@ -595,7 +595,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.108865163000019, -8.416104626999982, 0.0],
+        coordinates: [116.108865163000019, -8.416104626999982],
       },
     },
     {
@@ -616,7 +616,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.0681399, -8.404775099999938, 0.0],
+        coordinates: [116.0681399, -8.404775099999938],
       },
     },
     {
@@ -637,7 +637,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.067177400000105, -8.404648099999974, 0.0],
+        coordinates: [116.067177400000105, -8.404648099999974],
       },
     },
     {
@@ -658,7 +658,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.053584300000011, -8.410027499999956, 0.0],
+        coordinates: [116.053584300000011, -8.410027499999956],
       },
     },
     {
@@ -679,7 +679,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.045105100000114, -8.436464199999932, 0.0],
+        coordinates: [116.045105100000114, -8.436464199999932],
       },
     },
     {
@@ -700,7 +700,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.039885600000048, -8.437999599999955, 0.0],
+        coordinates: [116.039885600000048, -8.437999599999955],
       },
     },
     {
@@ -720,7 +720,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.032830000000104, -8.446477399999935, 0.0],
+        coordinates: [116.032830000000104, -8.446477399999935],
       },
     },
     {
@@ -741,7 +741,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.03855580000004, -8.458170199999927, 0.0],
+        coordinates: [116.03855580000004, -8.458170199999927],
       },
     },
     {
@@ -762,7 +762,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.03852350000011, -8.459138399999972, 0.0],
+        coordinates: [116.03852350000011, -8.459138399999972],
       },
     },
     {
@@ -782,7 +782,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.038210500000105, -8.468302, 0.0],
+        coordinates: [116.038210500000105, -8.468302],
       },
     },
     {
@@ -803,7 +803,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.096952900000019, -8.410483299999953, 0.0],
+        coordinates: [116.096952900000019, -8.410483299999953],
       },
     },
     {
@@ -824,7 +824,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.089994300000058, -8.433038899999929, 0.0],
+        coordinates: [116.089994300000058, -8.433038899999929],
       },
     },
     {
@@ -845,7 +845,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.101621900000055, -8.400945399999955, 0.0],
+        coordinates: [116.101621900000055, -8.400945399999955],
       },
     },
     {
@@ -864,7 +864,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.104841036000039, -8.436038163999967, 0.0],
+        coordinates: [116.104841036000039, -8.436038163999967],
       },
     },
     {
@@ -881,7 +881,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.050137, -8.41978, 0.0] },
+      geometry: { type: "Point", coordinates: [116.050137, -8.41978] },
     },
     {
       type: "Feature",
@@ -901,7 +901,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.079945700000053, -8.403452699999946, 0.0],
+        coordinates: [116.079945700000053, -8.403452699999946],
       },
     },
     {
@@ -922,7 +922,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.0449804000001, -8.433962799999961, 0.0],
+        coordinates: [116.0449804000001, -8.433962799999961],
       },
     },
     {
@@ -942,7 +942,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.067195500000025, -8.403261399999963, 0.0],
+        coordinates: [116.067195500000025, -8.403261399999963],
       },
     },
     {
@@ -963,7 +963,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.060155700000109, -8.405948899999942, 0.0],
+        coordinates: [116.060155700000109, -8.405948899999942],
       },
     },
     {
@@ -984,7 +984,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.053804600000035, -8.409205, 0.0],
+        coordinates: [116.053804600000035, -8.409205],
       },
     },
     {
@@ -1004,7 +1004,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.038100200000031, -8.441847, 0.0],
+        coordinates: [116.038100200000031, -8.441847],
       },
     },
     {
@@ -1025,7 +1025,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.033950200000049, -8.450012299999969, 0.0],
+        coordinates: [116.033950200000049, -8.450012299999969],
       },
     },
     {
@@ -1045,7 +1045,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.03678160000004, -8.466354299999978, 0.0],
+        coordinates: [116.03678160000004, -8.466354299999978],
       },
     },
     {
@@ -1064,7 +1064,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.103992069000014, -8.39044389399993, 0.0],
+        coordinates: [116.103992069000014, -8.39044389399993],
       },
     },
     {
@@ -1083,7 +1083,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.098961971000108, -8.393972275999943, 0.0],
+        coordinates: [116.098961971000108, -8.393972275999943],
       },
     },
     {
@@ -1104,7 +1104,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.087402000000111, -8.401115, 0.0],
+        coordinates: [116.087402000000111, -8.401115],
       },
     },
     {
@@ -1125,7 +1125,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.123130460000084, -8.421879864999937, 0.0],
+        coordinates: [116.123130460000084, -8.421879864999937],
       },
     },
     {
@@ -1146,7 +1146,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.077404700000102, -8.429678199999955, 0.0],
+        coordinates: [116.077404700000102, -8.429678199999955],
       },
     },
     {
@@ -1167,7 +1167,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.097091400000068, -8.443414699999948, 0.0],
+        coordinates: [116.097091400000068, -8.443414699999948],
       },
     },
     {
@@ -1188,7 +1188,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.038840900000082, -8.434257299999956, 0.0],
+        coordinates: [116.038840900000082, -8.434257299999956],
       },
     },
     {
@@ -1209,7 +1209,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.08363410000004, -8.465018899999961, 0.0],
+        coordinates: [116.08363410000004, -8.465018899999961],
       },
     },
     {
@@ -1226,7 +1226,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.102564, -8.405032, 0.0] },
+      geometry: { type: "Point", coordinates: [116.102564, -8.405032] },
     },
     {
       type: "Feature",
@@ -1246,7 +1246,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.065338700000098, -8.406279299999937, 0.0],
+        coordinates: [116.065338700000098, -8.406279299999937],
       },
     },
     {
@@ -1267,7 +1267,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.040483400000085, -8.45259249999998, 0.0],
+        coordinates: [116.040483400000085, -8.45259249999998],
       },
     },
     {
@@ -1288,7 +1288,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.050263300000097, -8.43155889999997, 0.0],
+        coordinates: [116.050263300000097, -8.43155889999997],
       },
     },
     {
@@ -1309,7 +1309,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.093205700000112, -8.403240099999948, 0.0],
+        coordinates: [116.093205700000112, -8.403240099999948],
       },
     },
     {
@@ -1326,7 +1326,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.103715, -8.403977, 0.0] },
+      geometry: { type: "Point", coordinates: [116.103715, -8.403977] },
     },
     {
       type: "Feature",
@@ -1346,7 +1346,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.083079200000043, -8.463561799999979, 0.0],
+        coordinates: [116.083079200000043, -8.463561799999979],
       },
     },
     {
@@ -1367,7 +1367,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.079375, -8.463409699999943, 0.0],
+        coordinates: [116.079375, -8.463409699999943],
       },
     },
     {
@@ -1386,7 +1386,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.105737547000103, -8.401988226999947, 0.0],
+        coordinates: [116.105737547000103, -8.401988226999947],
       },
     },
     {
@@ -1407,7 +1407,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.08797190000007, -8.435063499999956, 0.0],
+        coordinates: [116.08797190000007, -8.435063499999956],
       },
     },
     {
@@ -1428,7 +1428,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.048066300000073, -8.43367429999995, 0.0],
+        coordinates: [116.048066300000073, -8.43367429999995],
       },
     },
     {
@@ -1445,7 +1445,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.099345, -8.412286, 0.0] },
+      geometry: { type: "Point", coordinates: [116.099345, -8.412286] },
     },
     {
       type: "Feature",
@@ -1463,7 +1463,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.106611326, -8.397882466999931, 0.0],
+        coordinates: [116.106611326, -8.397882466999931],
       },
     },
     {
@@ -1484,7 +1484,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.073537700000088, -8.406666099999939, 0.0],
+        coordinates: [116.073537700000088, -8.406666099999939],
       },
     },
     {
@@ -1501,7 +1501,7 @@ var wisatageojson = {
         HasLabel: -1,
         LabelID: 0,
       },
-      geometry: { type: "Point", coordinates: [116.099588, -8.394314, 0.0] },
+      geometry: { type: "Point", coordinates: [116.099588, -8.394314] },
     },
     {
       type: "Feature",
@@ -1521,7 +1521,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.080261700000051, -8.42623, 0.0],
+        coordinates: [116.080261700000051, -8.42623],
       },
     },
     {
@@ -1542,7 +1542,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.082565600000066, -8.405765499999973, 0.0],
+        coordinates: [116.082565600000066, -8.405765499999973],
       },
     },
     {
@@ -1562,7 +1562,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.044735, -8.423800599999936, 0.0],
+        coordinates: [116.044735, -8.423800599999936],
       },
     },
     {
@@ -1582,7 +1582,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.066388900000106, -8.441944399999954, 0.0],
+        coordinates: [116.066388900000106, -8.441944399999954],
       },
     },
     {
@@ -1603,7 +1603,7 @@ var wisatageojson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [116.064609200000064, -8.461064299999975, 0.0],
+        coordinates: [116.064609200000064, -8.461064299999975],
       },
     },
   ],

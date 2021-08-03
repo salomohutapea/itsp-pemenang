@@ -26,100 +26,133 @@ var masjidIcon = L.icon({
   iconUrl: "icons/mosque.png",
   iconSize: [30, 30],
 });
-L.marker([-8.349617, 116.043601], { icon: masjidIcon })
-  .on("click", markerOnClick)
-  .bindPopup("Masjid Agung Baiturrahman Gili Trawangan")
-  .addTo(map);
-L.marker([-8.351996, 116.05639], { icon: masjidIcon })
-  .on("click", markerOnClick)
-  .bindPopup("Masjid Gili Meno")
-  .addTo(map);
-L.marker([-8.360324, 116.082564], { icon: masjidIcon })
-  .on("click", markerOnClick)
-  .bindPopup("Masjid Gili Air")
-  .addTo(map);
-L.marker([-8.404344, 116.102492], { icon: masjidIcon })
-  .on("click", markerOnClick)
-  .bindPopup("Masjid Jami Nurul Hikmah ")
-  .addTo(map);
-L.marker([-8.406129, 116.065313], { icon: masjidIcon })
-  .on("click", markerOnClick)
-  .bindPopup("Masjid Mentigi")
-  .addTo(map);
-L.marker([-8.431708, 116.050144], { icon: masjidIcon })
-  .on("click", markerOnClick)
-  .bindPopup("Masjid Nipah")
-  .addTo(map);
-L.marker([-8.452231, 116.040626], { icon: masjidIcon })
-  .on("click", markerOnClick)
-  .bindPopup("Masjid Nurul Iman")
-  .addTo(map);
+// L.marker([-8.349617, 116.043601], { icon: masjidIcon })
+//   .on("click", markerOnClick)
+//   .bindPopup("Masjid Agung Baiturrahman Gili Trawangan")
+//   .addTo(map);
+// L.marker([-8.351996, 116.05639], { icon: masjidIcon })
+//   .on("click", markerOnClick)
+//   .bindPopup("Masjid Gili Meno")
+//   .addTo(map);
+// L.marker([-8.360324, 116.082564], { icon: masjidIcon })
+//   .on("click", markerOnClick)
+//   .bindPopup("Masjid Gili Air")
+//   .addTo(map);
+// L.marker([-8.404344, 116.102492], { icon: masjidIcon })
+//   .on("click", markerOnClick)
+//   .bindPopup("Masjid Jami Nurul Hikmah ")
+//   .addTo(map);
+// L.marker([-8.406129, 116.065313], { icon: masjidIcon })
+//   .on("click", markerOnClick)
+//   .bindPopup("Masjid Mentigi")
+//   .addTo(map);
+// L.marker([-8.431708, 116.050144], { icon: masjidIcon })
+//   .on("click", markerOnClick)
+//   .bindPopup("Masjid Nipah")
+//   .addTo(map);
+// L.marker([-8.452231, 116.040626], { icon: masjidIcon })
+//   .on("click", markerOnClick)
+//   .bindPopup("Masjid Nurul Iman")
+//   .addTo(map);
 
 // PELABUHAN
 var pelabuhanIcon = L.icon({
   iconUrl: "icons/anchor.png",
   iconSize: [30, 30],
 });
-L.marker([-8.352888, 116.043303], { icon: pelabuhanIcon })
-  .bindPopup("Pelabuhan Gili Trawangan")
-  .addTo(map);
-L.marker([-8.353483, 116.062339], { icon: pelabuhanIcon })
-  .bindPopup("Gili Meno Terminal Ferry")
-  .addTo(map);
-L.marker([-8.363893, 116.082862], { icon: pelabuhanIcon })
-  .bindPopup("Pelabuhan Gili Air")
-  .addTo(map);
-L.marker([-8.393934, 116.099221], { icon: pelabuhanIcon })
-  .bindPopup("Pelabuhan Bangsal")
-  .addTo(map);
-L.marker([-8.406129, 116.073939], { icon: pelabuhanIcon })
-  .bindPopup("Pelabuhan Teluk Nare")
-  .addTo(map);
+// L.marker([-8.352888, 116.043303], { icon: pelabuhanIcon })
+//   .bindPopup("Pelabuhan Gili Trawangan")
+//   .addTo(map);
+// L.marker([-8.353483, 116.062339], { icon: pelabuhanIcon })
+//   .bindPopup("Gili Meno Terminal Ferry")
+//   .addTo(map);
+// L.marker([-8.363893, 116.082862], { icon: pelabuhanIcon })
+//   .bindPopup("Pelabuhan Gili Air")
+//   .addTo(map);
+// L.marker([-8.393934, 116.099221], { icon: pelabuhanIcon })
+//   .bindPopup("Pelabuhan Bangsal")
+//   .addTo(map);
+// L.marker([-8.406129, 116.073939], { icon: pelabuhanIcon })
+//   .bindPopup("Pelabuhan Teluk Nare")
+//   .addTo(map);
 
 // DIVING
-var divingIcon = L.icon({
-  iconUrl: "icons/diving.png",
-  iconSize: [30, 30],
-});
-L.marker([-8.34575, 116.023078], { icon: divingIcon })
-  .bindPopup("Shark Point Dive 2")
-  .addTo(map);
-L.marker([-8.356458, 116.029026], { icon: divingIcon })
-  .bindPopup("Shark Point Dive 1")
-  .addTo(map);
-L.marker([-8.347535, 116.050144], { icon: divingIcon })
-  .bindPopup("Gili Meno Bask Nest")
-  .addTo(map);
-L.marker([-8.340099, 116.061149], { icon: divingIcon })
-  .bindPopup("Turtle Heaven")
-  .addTo(map);
-L.marker([-8.349022, 116.085241], { icon: divingIcon })
-  .bindPopup("Secret Garden Dive Spot")
-  .addTo(map);
+// var divingIcon = L.icon({
+//   iconUrl: "icons/diving.png",
+//   iconSize: [30, 30],
+// });
+// L.marker([-8.34575, 116.023078], { icon: divingIcon })
+//   .bindPopup("Shark Point Dive 2")
+//   .addTo(map);
+// L.marker([-8.356458, 116.029026], { icon: divingIcon })
+//   .bindPopup("Shark Point Dive 1")
+//   .addTo(map);
+// L.marker([-8.347535, 116.050144], { icon: divingIcon })
+//   .bindPopup("Gili Meno Bask Nest")
+//   .addTo(map);
+// L.marker([-8.340099, 116.061149], { icon: divingIcon })
+//   .bindPopup("Turtle Heaven")
+//   .addTo(map);
+// L.marker([-8.349022, 116.085241], { icon: divingIcon })
+//   .bindPopup("Secret Garden Dive Spot")
+//   .addTo(map);
 
 // HILL
 var hillIcon = L.icon({ iconUrl: "icons/hill.png", iconSize: [30, 30] });
-L.marker([-8.42338, 116.04479], { icon: hillIcon })
-  .bindPopup("Bukit Nipah")
-  .addTo(map);
-L.marker([-8.405534, 116.082564], { icon: hillIcon })
-  .bindPopup("Bukit Sumbur Suma")
-  .addTo(map);
-L.marker([-8.461154, 116.064718], { icon: hillIcon })
-  .bindPopup("Bukit Sinjong Beto")
-  .addTo(map);
-L.marker([-8.441034, 116.0324901], { icon: hillIcon })
-  .bindPopup("Bukit Malimbu")
-  .addTo(map);
-L.marker([-8.429626, 116.077805], { icon: hillIcon })
-  .bindPopup("Bukit Melka")
-  .addTo(map);
-L.marker([-8.425759, 116.079887], { icon: hillIcon })
-  .bindPopup("Bukit Bagek Momot")
-  .addTo(map);
-L.marker([-8.435872, 116.104574], { icon: hillIcon })
-  .bindPopup("Bukit Shaolin")
-  .addTo(map);
+// L.marker([-8.42338, 116.04479], { icon: hillIcon })
+//   .bindPopup("Bukit Nipah")
+//   .addTo(map);
+// L.marker([-8.405534, 116.082564], { icon: hillIcon })
+//   .bindPopup("Bukit Sumbur Suma")
+//   .addTo(map);
+// L.marker([-8.461154, 116.064718], { icon: hillIcon })
+//   .bindPopup("Bukit Sinjong Beto")
+//   .addTo(map);
+// L.marker([-8.441034, 116.0324901], { icon: hillIcon })
+//   .bindPopup("Bukit Malimbu")
+//   .addTo(map);
+// L.marker([-8.429626, 116.077805], { icon: hillIcon })
+//   .bindPopup("Bukit Melka")
+//   .addTo(map);
+// L.marker([-8.425759, 116.079887], { icon: hillIcon })
+//   .bindPopup("Bukit Bagek Momot")
+//   .addTo(map);
+// L.marker([-8.435872, 116.104574], { icon: hillIcon })
+//   .bindPopup("Bukit Shaolin")
+//   .addTo(map);
+
+// WISATA
+for (var wisata of wisatageojson.features) {
+  L.marker(wisata.geometry.coordinates.reverse(), { icon: hillIcon })
+    .bindPopup(
+      "<div>\
+      <img style=\"max-width: 100%;\" src=\"images/test-img.png\">\
+      </div>" + "<strong>" + wisata.properties.Name + "</strong>"
+    )
+    .addTo(map);
+}
+
+// MASJID
+for (var masjid of masjidgeojson.features) {
+  L.marker(masjid.geometry.coordinates.reverse(), { icon: masjidIcon })
+    .bindPopup(
+      "<div>\
+      <img style=\"max-width: 100%;\" src=\"images/test-img.png\">\
+      </div>" + "<strong>" + masjid.properties.Name + "</strong>"
+    )
+    .addTo(map);
+}
+
+// HOTEL RESTO
+for (var hotelresto of hotelrestogeojson.features) {
+  L.marker(hotelresto.geometry.coordinates.reverse())
+    .bindPopup(
+      "<div>\
+      <img style=\"max-width: 100%;\" src=\"images/test-img.png\">\
+      </div>" + "<strong>" + hotelresto.properties.Name + "</strong>"
+    )
+    .addTo(map);
+}
 
 var menggala = L.marker([-8.445132, 116.094259]).bindPopup("Menggala"),
   malaka = L.marker([-8.435373, 116.057675]).bindPopup("Malaka"),
