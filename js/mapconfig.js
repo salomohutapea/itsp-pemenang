@@ -327,13 +327,13 @@ const pemenang = L.geoJSON(pemenanggeojson, {
   },
 }).addTo(map);
 
-const esri = L.tileLayer(
-  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-  {
-    attribution:
-      "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
-  }
-).addTo(map);
+// const esri = L.tileLayer(
+//   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+//   {
+//     attribution:
+//       "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+//   }
+// )
 
 const carto = L.tileLayer(
   "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}{r}.png",
@@ -355,7 +355,7 @@ const googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
     maxZoom: 20,
     subdomains:['mt0','mt1','mt2','mt3']
-});
+}).addTo(map);
 
 const googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
@@ -370,7 +370,7 @@ const googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z
 });
 
 const baseMaps = {
-  "Citra Satelit": esri,
+  // "Citra Satelit": esri,
   "Peta Carto": carto,
   "Google Streets": googleStreets,
   "Google Hybrid": googleHybrid,
