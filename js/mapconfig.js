@@ -343,7 +343,7 @@ const carto = L.tileLayer(
     subdomains: "abcd",
     maxZoom: 17,
   }
-);
+).addTo(map);
 
 const googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
@@ -355,7 +355,7 @@ const googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
     maxZoom: 20,
     subdomains:['mt0','mt1','mt2','mt3']
-}).addTo(map);
+})
 
 const googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
