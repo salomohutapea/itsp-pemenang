@@ -391,11 +391,11 @@ L.control.layers(baseMaps, overlayMaps).addTo(map);
 
 L.Control.geocoder().addTo(map);
 
-L.easyPrint({
-  title: "My awesome print button",
-  position: "topright",
-  sizeModes: ["A4Portrait", "A4Landscape"],
-}).addTo(map);
+// L.easyPrint({
+//   title: "My awesome print button",
+//   position: "topright",
+//   sizeModes: ["A4Portrait", "A4Landscape"],
+// }).addTo(map);
 
 const graphicScale = L.control
   .graphicScale({
@@ -406,7 +406,6 @@ const graphicScale = L.control
   .addTo(map);
 
 function cari() {
-  alert("tombol ditekan!");
   map.locate({ setView: true, maxZoom: 16 });
 
   function onLocationFound(e) {
@@ -423,6 +422,6 @@ function cari() {
   map.on("locationfound", onLocationFound);
 }
 
-function markerOnClick(e) {
-  alert("hi. you clicked the marker at " + e.latlng);
-}
+// function markerOnClick(e) {
+//   alert("hi. you clicked the marker at " + e.latlng);
+// }
