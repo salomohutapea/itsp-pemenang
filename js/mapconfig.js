@@ -60,42 +60,42 @@ var pelabuhanIcon = L.icon({
   iconUrl: "icons/anchor.png",
   iconSize: [30, 30],
 });
-// L.marker([-8.352888, 116.043303], { icon: pelabuhanIcon })
-//   .bindPopup("Pelabuhan Gili Trawangan")
-//   .addTo(map);
-// L.marker([-8.353483, 116.062339], { icon: pelabuhanIcon })
-//   .bindPopup("Gili Meno Terminal Ferry")
-//   .addTo(map);
-// L.marker([-8.363893, 116.082862], { icon: pelabuhanIcon })
-//   .bindPopup("Pelabuhan Gili Air")
-//   .addTo(map);
-// L.marker([-8.393934, 116.099221], { icon: pelabuhanIcon })
-//   .bindPopup("Pelabuhan Bangsal")
-//   .addTo(map);
-// L.marker([-8.406129, 116.073939], { icon: pelabuhanIcon })
-//   .bindPopup("Pelabuhan Teluk Nare")
-//   .addTo(map);
+L.marker([-8.352888, 116.043303], { icon: pelabuhanIcon })
+  .bindPopup("Pelabuhan Gili Trawangan")
+  .addTo(map);
+L.marker([-8.353483, 116.062339], { icon: pelabuhanIcon })
+  .bindPopup("Gili Meno Terminal Ferry")
+  .addTo(map);
+L.marker([-8.363893, 116.082862], { icon: pelabuhanIcon })
+  .bindPopup("Pelabuhan Gili Air")
+  .addTo(map);
+L.marker([-8.393934, 116.099221], { icon: pelabuhanIcon })
+  .bindPopup("Pelabuhan Bangsal")
+  .addTo(map);
+L.marker([-8.406129, 116.073939], { icon: pelabuhanIcon })
+  .bindPopup("Pelabuhan Teluk Nare")
+  .addTo(map);
 
 // DIVING
-// var divingIcon = L.icon({
-//   iconUrl: "icons/diving.png",
-//   iconSize: [30, 30],
-// });
-// L.marker([-8.34575, 116.023078], { icon: divingIcon })
-//   .bindPopup("Shark Point Dive 2")
-//   .addTo(map);
-// L.marker([-8.356458, 116.029026], { icon: divingIcon })
-//   .bindPopup("Shark Point Dive 1")
-//   .addTo(map);
-// L.marker([-8.347535, 116.050144], { icon: divingIcon })
-//   .bindPopup("Gili Meno Bask Nest")
-//   .addTo(map);
-// L.marker([-8.340099, 116.061149], { icon: divingIcon })
-//   .bindPopup("Turtle Heaven")
-//   .addTo(map);
-// L.marker([-8.349022, 116.085241], { icon: divingIcon })
-//   .bindPopup("Secret Garden Dive Spot")
-//   .addTo(map);
+var divingIcon = L.icon({
+  iconUrl: "icons/diving.png",
+  iconSize: [30, 30],
+});
+L.marker([-8.34575, 116.023078], { icon: divingIcon })
+  .bindPopup("Shark Point Dive 2")
+  .addTo(map);
+L.marker([-8.356458, 116.029026], { icon: divingIcon })
+  .bindPopup("Shark Point Dive 1")
+  .addTo(map);
+L.marker([-8.347535, 116.050144], { icon: divingIcon })
+  .bindPopup("Gili Meno Bask Nest")
+  .addTo(map);
+L.marker([-8.340099, 116.061149], { icon: divingIcon })
+  .bindPopup("Turtle Heaven")
+  .addTo(map);
+L.marker([-8.349022, 116.085241], { icon: divingIcon })
+  .bindPopup("Secret Garden Dive Spot")
+  .addTo(map);
 
 // HILL
 var hillIcon = L.icon({ iconUrl: "icons/hill.png", iconSize: [30, 30] });
