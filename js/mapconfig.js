@@ -370,12 +370,12 @@ const googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z
 });
 
 const baseMaps = {
-  // "Citra Satelit": esri,
-  "Peta Carto": carto,
+  "Google Satelite": googleSat,
   "Google Streets": googleStreets,
   "Google Hybrid": googleHybrid,
-  "Google Satelite": googleSat,
-  "Google Terrain": googleTerrain
+  "Google Terrain": googleTerrain,
+  // "Citra Satelit": esri,
+  "Peta Carto": carto
 };
 
 const overlayMaps = {
