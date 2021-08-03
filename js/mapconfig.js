@@ -336,7 +336,7 @@ const pemenang = L.geoJSON(pemenanggeojson, {
 // )
 
 const carto = L.tileLayer(
-  "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}{r}.png",
+  "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png",
   {
     attribution:
       '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
@@ -370,10 +370,10 @@ const googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z
 });
 
 const baseMaps = {
-  "Google Satelite": googleSat,
-  "Google Streets": googleStreets,
-  "Google Hybrid": googleHybrid,
-  "Google Terrain": googleTerrain,
+  "Citra Satelit": googleSat,
+  // "Google Streets": googleStreets,
+  // "Google Hybrid": googleHybrid,
+  // "Google Terrain": googleTerrain,
   // "Citra Satelit": esri,
   "Peta Carto": carto
 };
