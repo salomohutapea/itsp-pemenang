@@ -10,6 +10,7 @@ const pelabuhanIcon = L.icon({
 });
 const divingIcon = L.icon({ iconUrl: "icons/diving.png", iconSize: [30, 30] });
 const hillIcon = L.icon({ iconUrl: "icons/hill.png", iconSize: [30, 30] });
+const faskesIcon = L.icon({ iconUrl: "icons/faskes.png", iconSize: [30, 30] });
 const spbuIcon = L.icon({ iconUrl: "icons/spbu.png", iconSize: [30, 30] });
 const puraIcon = L.icon({ iconUrl: "icons/pura.png", iconSize: [30, 30] });
 const beachIcon = L.icon({ iconUrl: "icons/beach.png", iconSize: [30, 30] });
@@ -94,6 +95,20 @@ const pelabuhan = L.layerGroup([
 const spbu = L.layerGroup([
   L.marker([-8.397206, 116.106954], { icon: spbuIcon }).bindPopup("SPBU"),
   L.marker([-8.412077, 116.099221], { icon: spbuIcon }).bindPopup("SPBU"),
+]);
+
+// FASKES
+
+const faskes = L.layerGroup([
+  L.marker([-8.402161, 116.105927], { icon: faskesIcon }).bindPopup(
+    "Puskesmas Pemenang"
+  ),
+  L.marker([-8.435176, 116.088081], { icon: faskesIcon }).bindPopup(
+    "Puskesmas Menggala"
+  ),
+  L.marker([-8.433391, 116.048225], { icon: faskesIcon }).bindPopup(
+    "Puskesmas Nipah"
+  ),
 ]);
 
 // DIVING
@@ -287,7 +302,7 @@ const wisata = L.layerGroup([
   wisatalain,
   ekowisata,
   waterfall,
-]);
+]).addTo(map);
 
 // const menggala = L.marker([-8.445132, 116.094259]).bindPopup("Menggala"),
 //   malaka = L.marker([-8.435373, 116.057675]).bindPopup("Malaka"),
@@ -345,29 +360,41 @@ const carto = L.tileLayer(
   }
 ).addTo(map);
 
-const googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
+const googleHybrid = L.tileLayer(
+  "http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}",
+  {
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
     maxZoom: 20,
-    subdomains:['mt0','mt1','mt2','mt3']
-});
+    subdomains: ["mt0", "mt1", "mt2", "mt3"],
+  }
+);
 
-const googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+const googleSat = L.tileLayer(
+  "http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+  {
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
     maxZoom: 20,
-    subdomains:['mt0','mt1','mt2','mt3']
-})
+    subdomains: ["mt0", "mt1", "mt2", "mt3"],
+  }
+);
 
-const googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
+const googleTerrain = L.tileLayer(
+  "http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}",
+  {
     attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
     maxZoom: 20,
-    subdomains:['mt0','mt1','mt2','mt3']
-});
+    subdomains: ["mt0", "mt1", "mt2", "mt3"],
+  }
+);
 
-const googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
-  attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
-  maxZoom: 20,
-  subdomains:['mt0','mt1','mt2','mt3']
-});
+const googleStreets = L.tileLayer(
+  "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
+  {
+    attribution: 'Maps by <a href="https://maps.google.com">Google Maps</a>',
+    maxZoom: 20,
+    subdomains: ["mt0", "mt1", "mt2", "mt3"],
+  }
+);
 
 const baseMaps = {
   "Citra Satelit": googleSat,
@@ -375,11 +402,12 @@ const baseMaps = {
   // "Google Hybrid": googleHybrid,
   // "Google Terrain": googleTerrain,
   // "Citra Satelit": esri,
-  "Peta Carto": carto
+  "Peta Carto": carto,
 };
 
 const overlayMaps = {
   "Kecamatan Pemenang": pemenang,
+  Faskes: faskes,
   Pelabuhan: pelabuhan,
   "Penginapan/Hotel/Resto": penginapan,
   Peribadatan: peribadatan,
